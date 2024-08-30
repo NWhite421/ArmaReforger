@@ -1,0 +1,15 @@
+GameEntity : "{B785743050552207}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_MT_Liberator_Marsoc1.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab "{397A4D4ED2E51C6A}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
+    }
+   }
+  }
+ }
+}

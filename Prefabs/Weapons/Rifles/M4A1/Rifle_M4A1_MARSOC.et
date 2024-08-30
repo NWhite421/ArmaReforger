@@ -1,0 +1,39 @@
+GenericEntity : "{271D10D6B06A7F83}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_NT4.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Prefab "{0A697FF8CA33F9A5}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-1_tan.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE953838E77C}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95244FA719}" {
+      Prefab "{1D1792BE5A3BB831}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_grip_tan.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab "{C53550E0488BC2AF}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_kit_m4a1_ras_tan.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6043335BD2A3D15B}" {
+       AttachmentSlot InventoryStorageSlot "{6043335BDD3F0CBA}" {
+        Prefab "{EF8F44E10F9B7A9D}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered.et"
+       }
+      }
+     }
+     MagazineTemplate "{A540E8600876C2A2}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+    }
+   }
+  }
+ }
+}

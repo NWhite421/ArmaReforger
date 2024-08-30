@@ -1,0 +1,23 @@
+GenericEntity : "{551DB06603E248AE}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
+   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
+    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
+     Name "#RHS-Vest_AVS_Name - #RHS-Camo_MULTICAM"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Prefab "{EAC140671B326F58}Prefabs/Items/Equipment/Patches/Patch_US_Flag.et"
+    }
+   }
+   WornMaterialsOverride {
+   }
+   ItemMaterialsOverride {
+   }
+  }
+ }
+}

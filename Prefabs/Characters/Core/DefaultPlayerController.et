@@ -1,0 +1,4 @@
+SCR_PlayerController {
+ ID "1A9BA6BEFA06E3B1"
+ DefaultControlledEntity "{09C6850839BE86D2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_AssistantMG_P.et"
+}

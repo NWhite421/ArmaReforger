@@ -1,0 +1,70 @@
+GenericEntity : "{E34E9F101C7ECB4B}Prefabs/Characters/Core/RHS_Vest_Base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  SignalsManagerComponent "{62341A12B6859414}" {
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{8D7B9D2378659684}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty_item.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{62341A12B04125CD}" {
+   Attributes SCR_ItemAttributeCollection "{62341A1261412F04}" {
+    ItemDisplayName UIInfo "{62341A126B227D66}" {
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{62341A127F4DD1F1}" {
+     Weight 0.1
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 25001
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{62341A12140EA5E0}" {
+      CameraDistanceToItem 3
+      FOV 10
+      PreviewWornModel 1
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   Priority 1
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 2000
+   MaxItemSize 10 10 10
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo IFAK {
+     PivotID "Spine5"
+     Offset 0.1792 0.0687 0.0539
+     Angles 0 -110.1745 0
+     Prefab "{DB08308A11F0A1FA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_ifak.et"
+    }
+    LoadoutSlotInfo MGBox1 {
+     PivotID "Spine5"
+     Offset 0.0728 0.0972 0.151
+     Angles 0 -177.52133 0
+     Prefab "{29E5A23AA9F8AB54}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util_MG.et"
+    }
+    LoadoutSlotInfo MGBox2 {
+     PivotID "Spine5"
+     Offset -0.0708 0.0968 0.148
+     Angles 0 178.37714 1.0902
+     Prefab "{29E5A23AA9F8AB54}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util_MG.et"
+    }
+    LoadoutSlotInfo Nerd {
+     PivotID "Spine5"
+     Offset 0 0.2182 0.1581
+     Angles 7.8874 0 0
+     Prefab "{80B50798C062384A}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Big.et"
+    }
+    LoadoutSlotInfo Radio {
+     PivotID "Spine5"
+     Offset -0.188 0.0524 0.1024
+     Angles 0 -153.97502 0
+     Prefab "{DA627786471E28B5}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_152_Radio.et"
+    }
+   }
+   WornModel "{E1BBDA1F6E3A4F0E}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty.xob"
+   ItemModel "{8D7B9D2378659684}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty_item.xob"
+  }
+ }
+}

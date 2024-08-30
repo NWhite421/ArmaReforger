@@ -1,0 +1,23 @@
+GenericEntity : "{7BD5C0FC31E546E1}Prefabs/Weapons/MachineGuns/M249/MG_M249_RIS_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      AttachmentSlotComponent "{608E05E916C814DC}" {
+       AttachmentSlot InventoryStorageSlot Stock {
+        Prefab "{6DF0FDFFA63EE118}Prefabs/Weapons/MachineGuns/M249/Parts/RHS_M249_PIP_Stock.et"
+       }
+      }
+      AttachmentSlotComponent "{60933178A3AEBECE}" {
+       AttachmentSlot InventoryStorageSlot RHS_M249_Slot_Optic {
+        Prefab "{7DB681643152613C}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

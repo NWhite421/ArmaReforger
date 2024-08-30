@@ -1,0 +1,9 @@
+GenericEntity : "{7EDB84F955593FDD}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP109_utillmid_MC.et" {
+ ID "50E0B40D7407B664"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   MaxCumulativeVolume 1000
+   MaxItemSize 15 15 15
+  }
+ }
+}

@@ -1,0 +1,15 @@
+GenericEntity : "{E2570E47232ACCAA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et" {
+ ID "50E0B40D7407B664"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     ItemDimensions 15 15 15
+     ItemVolume 1401
+    }
+   }
+   MaxCumulativeVolume 1401
+   MaxItemSize 15 15 15
+  }
+ }
+}

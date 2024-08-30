@@ -1,0 +1,27 @@
+GenericEntity : "{6AB41609027AA0FB}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_CoyMG.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{54B7299FE2A57E3B}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_front_molle_MC.et"
+    }
+    LoadoutSlotInfo saw {
+     Angles -2.7268 -86.4057 3.359
+     Prefab "{7EDB84F955593FDD}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP109_utillmid_MC.et"
+    }
+    LoadoutSlotInfo radio {
+     Prefab "{B1934198EEFDCB28}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+    LoadoutSlotInfo tako {
+     Offset -0.2061 0.0201 0.0288
+     Angles 9.3566 -77.88251 -2.8449
+     Prefab "{7EDB84F955593FDD}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP109_utillmid_MC.et"
+    }
+    LoadoutSlotInfo Tako2 {
+     Prefab "{325F38C98ED87C7A}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MC.et"
+    }
+   }
+  }
+ }
+}

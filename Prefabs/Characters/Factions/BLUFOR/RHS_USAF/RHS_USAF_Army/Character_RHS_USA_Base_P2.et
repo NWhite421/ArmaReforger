@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{B889387E9A33D667}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_Army/Character_RHS_USA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4E7828F648CB4FBC}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_SHROUD_OEFCP_Army.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{51E6ADD2FE1EBFFF}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC_US.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1D0E3F9F2E1F6D21}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B5FEEF292633187B}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_MC.et"
+    }
+   }
+  }
+ }
+}

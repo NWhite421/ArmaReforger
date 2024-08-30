@@ -1,0 +1,24 @@
+GameEntity : "{3A1649ADCA63AFD6}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_FG.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab "{397A4D4ED2E51C6A}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{6D6ADA201AD4E09B}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_olive.et"
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Prefab "{EAC140671B326F58}Prefabs/Items/Equipment/Patches/Patch_US_Flag.et"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Prefab "{7122907EFFE9ABD1}Prefabs/Items/Equipment/Patches/Patch_US_Flag_Inverse.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+GameEntity : "{070FCE4FE5812C5D}Prefabs/Characters/Uniforms/Velocity_shirt/velocity_shirt_od.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    RHS_LoadoutSlotInfo SleeveRightUpperVelcro {
+     Prefab "{7122907EFFE9ABD1}Prefabs/Items/Equipment/Patches/Patch_US_Flag_Inverse.et"
+    }
+    RHS_LoadoutSlotInfo SleeveLeftVelcro {
+     Prefab "{618BF6A92A1C0B59}Prefabs/Items/Equipment/Patches/Patch_USMC_MSOB.et"
+    }
+   }
+  }
+ }
+}

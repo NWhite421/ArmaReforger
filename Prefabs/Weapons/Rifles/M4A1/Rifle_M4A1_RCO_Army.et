@@ -1,0 +1,40 @@
+GenericEntity : "{068C2EB42635973F}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+      Prefab "{1FA4BF60B0648BFC}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4_Buttstock.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA70372C8BA}" {
+     AttachmentSlot InventoryStorageSlot Barrel {
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Prefab "{50475BC9E6A7ABD0}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_army.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{60988582B19CD9BD}" {
+     AttachmentSlot InventoryStorageSlot FLASHHIDER {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+    }
+   }
+  }
+ }
+}

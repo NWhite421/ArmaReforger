@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{3823054B1A53ED17}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_MARSOC/Character_RHS_USAF_MARSOC_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{BCC6A98B87FC466B}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MARPAT_US.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DD6750AD7E2ECC61}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_MARPAT.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
+    }
+   }
+  }
+ }
+}
